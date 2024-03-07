@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/User/Documents/GitHub/app_ntunhs_im/test/app/src/main/res/drawable/round_button.xml" value="0.2265" />
+        <entry key="..\:/Users/User/Documents/GitHub/app_ntunhs_im/test/app/src/main/res/drawable/round_button_selector.xml" value="0.2265" />
+        <entry key="..\:/Users/User/Documents/GitHub/app_ntunhs_im/test/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/test/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
