@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">STARDENBURDENHARDENBART</string>
+    <string name="reset">ZURÜCKSETZEN</string>
+    <string name="correct">RICHTIG</string>
+    <string name="guess">ERRATEN</string>
+    <string name="please_enter_a_number">BITTE GEBE EINE NUMMER EIN</string>
+    <string name="too_big_range">ZU GROSS, REICHWEITE: %1$s-%2$s</string>
+    <string name="too_small_range">ZU KLEIN, REICHWEITE: %1$s-%2$s</string>
+    <string name="let_us_guess_again">LASSEN SIE UNS NOCHMAL RATEN!</string>
+    <string name="reset_game_mention">DAS SPIEL WIRD IN 6 SEKUNDEN ZURÜCKGESETZT!</string>
+</resources>

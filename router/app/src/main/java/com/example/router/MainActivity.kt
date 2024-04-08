@@ -16,24 +16,23 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        val btnChangeActivity = findViewById<Button>(R.id.btnChangeActivity)
+        val btnOpenBrowser = findViewById<Button>(R.id.btnOpenBrowser)
 
-        val  btnChangeActivity = findViewById<Button>(R.id.btnChangeActivity)
-        val  btnOpenBrowser = findViewById<Button>(R.id.btnOpenBrowser)
-        val  edtName = findViewById<EditText>(R.id.edtName)
-
-
-        btnChangeActivity.setOnClickListener{
-            var  bundle = Bundle()
-            var name = edtName.text.toString()
-            bundle.putString("name",name)
-
-            var seconIntent = Intent(this,SecondActivity::class.java)
-            seconIntent.putExtra("key",bundle)
-            startActivity(seconIntent)
+        btnChangeActivity.setOnClickListener {
+            // 創建一個 Intent 來啟動 Rock_paper_scissors 活動
+            val intent = Intent(this, Rock_papaer_scissors::class.java)
+            // 啟動指定的活動，不傳遞任何數據
+            startActivity(intent)
         }
-        btnOpenBrowser.setOnClickListener{
-            var seconIntent =  Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"))
-            startActivity(seconIntent)
+
+        btnOpenBrowser.setOnClickListener {
+            // 創建一個 Intent 來啟動 Rock_paper_scissors 活動
+            val intent = Intent(this, guess_number::class.java)
+            // 啟動指定的活動，不傳遞任何數據
+            startActivity(intent)
         }
+
+
     }
 }

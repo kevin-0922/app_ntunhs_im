@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GUESS NUMBER</string>
+    <string name="reset">RESET</string>
+    <string name="correct">CORRECT</string>
+    <string name="guess">GUESS</string>
+    <string name="please_enter_a_number">PLEASE ENTER A NUMBER</string>
+    <string name="too_big_range">TOO BIG, RANGE: %1$s-%2$s</string>
+    <string name="too_small_range">TOO SMALL, RANGE: %1$s-%2$s</string>
+    <string name="let_us_guess_again">LET US GUESS AGAIN!</string>
+    <string name="reset_game_mention">GAME WILL RESET IN 6 SECONDS!</string>
+</resources>
